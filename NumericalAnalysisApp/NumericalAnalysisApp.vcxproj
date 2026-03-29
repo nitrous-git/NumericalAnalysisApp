@@ -130,10 +130,12 @@
     <ClCompile Include="LagrangePolynomial.cpp" />
     <ClCompile Include="NewtonGregory.cpp" />
     <ClCompile Include="NumericalAnalysisApp.cpp" />
+    <ClCompile Include="NumericalTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LagrangePolynomial.h" />
     <ClInclude Include="NewtonGregory.h" />
+    <ClInclude Include="NumericalTests.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

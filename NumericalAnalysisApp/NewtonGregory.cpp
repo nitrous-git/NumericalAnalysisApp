@@ -30,12 +30,12 @@ std::vector<std::vector<double>> NewtonGregory::DifferenceTable(const std::vecto
 	// Ordre 0 : les valeurs elles - mêmes(Δ⁰f_i = f_i)
 	table[0] = fValues;
 
-	for (int k = 0; k < n; ++k)
+	for (int k = 1; k < n; ++k)
 	{
 		int rowSize = n - k;
 		table[k].resize(rowSize);
 
-		// Ordres superieurs : Δ ^ k f_i = Δ ^ (k - 1) f_(i + 1) - Δ ^ (k - 1) f_i
+		// Ordres superieurs : Δ^k f_i = Δ^(k - 1) f_(i + 1) - Δ^(k - 1) f_i
 		for (int i = 0; i < rowSize; ++i)
 		{
 			table[k][i] = table[k - 1][i + 1] - table[k - 1][i];

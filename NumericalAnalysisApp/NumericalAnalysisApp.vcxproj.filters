@@ -24,12 +24,18 @@
     <ClCompile Include="NewtonGregory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NumericalTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LagrangePolynomial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NewtonGregory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalTests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
